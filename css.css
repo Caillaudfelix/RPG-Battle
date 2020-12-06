@@ -1,0 +1,118 @@
+body{
+  background-image: url(https://opengameart.org/sites/default/files/caves_preview_small.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:Arial Narrow, sans-serif;
+}
+
+section1{
+  display: flex;
+  display: inline-block;
+  justify-content: center;
+  padding: 5px;
+}
+.perso1{
+  display: inline-block;
+  padding: 5px;
+  font-size: 2.5em;
+  background-color: #122676;
+  border: 3mm ridge rgba(100, 100, 100, .8);
+}
+.perso2{
+  display: inline-block;
+  padding: 5px;
+  font-size: 2.5em;
+  background-color: #122676;
+  border: 3mm ridge rgba(100, 100, 100, .8);
+}
+
+.perso3{
+  display: inline-block;
+  padding: 5px;
+  font-size: 2.5em;
+  background-color: #122676;
+  border: 3mm ridge rgba(100, 100, 100, .8);
+}
+
+.perso4{
+  display : inline-block;
+  padding: 5px;
+  font-size: 2.5em;
+  background-color: #122676;
+  border: 3mm ridge rgba(100, 100, 100, .8);
+}
+
+section2{
+  display: inline-block;
+  justify-content: center;
+  position: absolute;
+  top: 13px;
+  left: 1000px;
+  padding: 5px;
+}
+
+.parametres{
+  display: flex;
+  padding: 5px;
+  font-size: 2.5em;
+  background-color: #122676;
+  border: 3mm ridge rgba(100, 100, 100, .8);
+}
+
+section3{
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu{
+  display: inline-block;
+  border: 1px white double;
+  padding: 5px;
+  font-size: 2em;
+  background-color: #122676;
+  border: 3mm ridge rgba(100, 100, 100, .8);
+}
+
+.actions{
+  display: inline-block;
+  border: 1px white double;
+  padding: 5px;
+  font-size: 2.5em;
+  background-color: #122676;
+  border: 3mm ridge rgba(100, 100, 100, .8);
+}
+
+.monstre1{
+  position: relative;
+}
+
+.monstre1 > img{
+  position: absolute;
+  top:-500px;
+  left:300px;
+}
+
+.monstre2{
+  position: relative;
+}
+
+.monstre2 > img{
+  position: absolute;
+  top:-500px;
+  left:600px;
+}
+
+.monstre3{
+  position: relative;
+}
+
+.monstre3 > img{
+  position: absolute;
+  top:-500px;
+  left:900px;
+}
+
+
