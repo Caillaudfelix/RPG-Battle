@@ -62,14 +62,13 @@ section2{
 section3{
   align-items: flex-start;
   flex-direction: column;
-  margin-top: 500px;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
 }
 
 .menu{
   display: inline-block;
-  border: 1px white double;
   padding: 5px;
   font-size: 2em;
   background-color: #122676;
@@ -78,41 +77,50 @@ section3{
 
 .actions{
   display: inline-block;
-  border: 1px white double;
   padding: 5px;
   font-size: 2.5em;
   background-color: #122676;
   border: 3mm ridge rgba(100, 100, 100, .8);
 }
 
-.monstre1{
+.statsmonstres{
+  padding: 5px;
+  font-size: 2.5em;
+  background-color: #122676;
+  border: 3mm ridge rgba(100, 100, 100, .8);
+  visibility: hidden;
+  width: 125px;
+  height: 100px;
+}
+
+.infobulle1{
+  display: flex;
   position: relative;
+  top: 290px;
+  left: 455px;
 }
 
-.monstre1 > img{
-  position: absolute;
-  top:-500px;
-  left:500px;
-}
-
-.monstre2{
+.infobulle2{
+  display: flex;
+  justify-content: space-between;
   position: relative;
+  top: 160px;
+  left: 860px; 
 }
 
-.monstre2 > img{
-  position: absolute;
-  top:-500px;
-  left:900px;
-}
-
-.monstre3{
+.infobulle3{
+  display: flex;
+  justify-content: space-between;
   position: relative;
+  top: 30px;
+  left: 1275px; 
 }
 
-.monstre3 > img{
-  position: absolute;
-  top:-500px;
-  left:1300px;
+.imagemonstre{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  top: 250px;
+  left: 100px;
 }
-
-
