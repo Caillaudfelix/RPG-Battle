@@ -97,7 +97,7 @@ section3{
   display: flex;
   position: relative;
   top: 290px;
-  left: 455px;
+  left: 475px;
 }
 
 .infobulle2{
@@ -105,7 +105,7 @@ section3{
   justify-content: space-between;
   position: relative;
   top: 160px;
-  left: 860px; 
+  left: 965px; 
 }
 
 .infobulle3{
@@ -113,7 +113,7 @@ section3{
   justify-content: space-between;
   position: relative;
   top: 30px;
-  left: 1275px; 
+  left: 1450px; 
 }
 
 .imagemonstre{
