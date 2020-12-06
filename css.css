@@ -2,7 +2,7 @@ body{
   background-image: url(https://opengameart.org/sites/default/files/caves_preview_small.png);
   background-repeat: no-repeat;
   background-size: cover;
-  font-family:Arial Narrow, sans-serif;
+  font-family: Arial Narrow, sans-serif;
 }
 
 section1{
@@ -35,7 +35,7 @@ section1{
 }
 
 .perso4{
-  display : inline-block;
+  display: inline-block;
   padding: 5px;
   font-size: 2.5em;
   background-color: #122676;
@@ -47,7 +47,7 @@ section2{
   justify-content: center;
   position: absolute;
   top: 13px;
-  left: 1000px;
+  left: 1675px;
   padding: 5px;
 }
 
@@ -92,7 +92,7 @@ section3{
 .monstre1 > img{
   position: absolute;
   top:-500px;
-  left:300px;
+  left:500px;
 }
 
 .monstre2{
@@ -102,7 +102,7 @@ section3{
 .monstre2 > img{
   position: absolute;
   top:-500px;
-  left:600px;
+  left:900px;
 }
 
 .monstre3{
@@ -112,7 +112,7 @@ section3{
 .monstre3 > img{
   position: absolute;
   top:-500px;
-  left:900px;
+  left:1300px;
 }
 
 
