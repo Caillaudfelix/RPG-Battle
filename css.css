@@ -1,8 +1,10 @@
 body{
-  background-image: url(https://opengameart.org/sites/default/files/caves_preview_small.png);
+    font-family: Arial Narrow, sans-serif;
+}
+
+#background{
   background-repeat: no-repeat;
-  background-size: cover;
-  font-family: Arial Narrow, sans-serif;
+  background-size: 100% 100%;
 }
 
 section1{
@@ -113,7 +115,7 @@ section3{
   justify-content: space-between;
   position: relative;
   top: 30px;
-  left: 1450px; 
+  left: 1455px; 
 }
 
 .imagemonstre{
