@@ -13,6 +13,7 @@ section1{
   justify-content: center;
   padding: 5px;
 }
+
 .perso1{
   display: inline-block;
   padding: 5px;
@@ -20,6 +21,7 @@ section1{
   background-color: #122676;
   border: 3mm ridge rgba(100, 100, 100, .8);
 }
+
 .perso2{
   display: inline-block;
   padding: 5px;
