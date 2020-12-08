@@ -1,10 +1,33 @@
+var battaqueK = document.getElementById("battaqueK");
+var attaquePerso = 25;
+var pvM3 = false;
+var salut = "BIENJOUE"
+
 battaqueK.onclick = function(){
-	attaquePerso = 25;
-	pv = document.getElementById("pvMonstre1").innerHTML;
-	pv = (pv - attaquePerso);
-	document.getElementById("pvMonstre1").innerHTML = pvMonstre1;
-	if (pvMonstre1 == 0){
+	pvM1 = document.getElementById("pvMonstre1").innerHTML;
+	pvM1 = (pvM1 - attaquePerso);
+	document.getElementById("pvMonstre1").innerHTML = pvM1;
+	if (pvM1 <= 0){
 		document.getElementById("monstre1").style.visibility = "hidden";
+		pvM2 = document.getElementById("pvMonstre2").innerHTML;
+		pvM2 = (pvM2 - attaquePerso);
+		document.getElementById("pvMonstre2").innerHTML = pvM2;
+		if (pvM2 <= 0){
+			document.getElementById("monstre2").style.visibility = "hidden";
+			pvM3 = document.getElementById("pvMonstre3").innerHTML;
+			pvM3 = (pvM3 - attaquePerso);
+			document.getElementById("pvMonstre3").innerHTML = pvM3;
+			if(pvM3 <=0){
+				document.getElementById("monstre3").style.visibility = "hidden";
+				pvM3=true;
+			}
+		}
+	}
+}
+
+function victoire(){
+	if (pvM3=true){
+		System.out.println(salut);
 	}
 }
 
