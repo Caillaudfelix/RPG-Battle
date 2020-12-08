@@ -1,7 +1,5 @@
 var battaqueK = document.getElementById("battaqueK");
 var attaquePerso = 25;
-var pvM3 = false;
-var salut = "BIENJOUE"
 
 battaqueK.onclick = function(){
 	pvM1 = document.getElementById("pvMonstre1").innerHTML;
@@ -19,15 +17,9 @@ battaqueK.onclick = function(){
 			document.getElementById("pvMonstre3").innerHTML = pvM3;
 			if(pvM3 <=0){
 				document.getElementById("monstre3").style.visibility = "hidden";
-				pvM3=true;
+				document.getElementById("mvictoire").style.visibility = "visible";
 			}
 		}
-	}
-}
-
-function victoire(){
-	if (pvM3=true){
-		System.out.println(salut);
 	}
 }
 

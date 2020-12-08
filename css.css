@@ -66,9 +66,22 @@ section2{
 section3{
   align-items: flex-start;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: -150px;
   display: flex;
   justify-content: center;
+}
+
+.infobullevictoire{
+  display: inline-block;
+  justify-content: center;
+  padding: 5px;
+  font-size: 2.5em;
+  position: relative;
+  top : -400px;
+  left: 800px;
+  background-color: #122676;
+  border: 3mm ridge rgba(100, 100, 100, .8);
+  visibility: hidden;
 }
 
 .menu{
@@ -110,21 +123,19 @@ section3{
   display: flex;
   position: relative;
   top: 290px;
-  left: 475px;
+  right: -475px;
 }
 
 .infobulle2{
   display: flex;
-  justify-content: space-between;
   position: relative;
   top: 160px;
-  left: 965px; 
+  right: -965px; 
 }
 
 .infobulle3{
   display: flex;
-  justify-content: space-between;
   position: relative;
   top: 30px;
-  left: 1455px; 
+  right: -1455px; 
 }
