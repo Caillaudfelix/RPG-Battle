@@ -71,7 +71,7 @@ section3{
   justify-content: center;
 }
 
-.infobullevictoire{
+#infobullevictoire{
   display: inline-block;
   justify-content: center;
   padding: 5px;

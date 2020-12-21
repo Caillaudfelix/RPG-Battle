@@ -17,7 +17,7 @@ battaqueK.onclick = function(){
 			document.getElementById("pvMonstre3").innerHTML = pvM3;
 			if(pvM3 <=0){
 				document.getElementById("monstre3").style.visibility = "hidden";
-				document.getElementById("mvictoire").style.visibility = "visible";
+				document.getElementById("infobullevictoire").style.visibility = "visible";
 			}
 		}
 	}
