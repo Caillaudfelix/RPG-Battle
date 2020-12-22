@@ -15,6 +15,22 @@ bcible1.onclick = function(){
 	document.getElementById("bspecialC").disabled = false;
 	document.getElementById("bspecialM").disabled = false;
 	document.getElementById("bspecialA").disabled = false;
+	manaK = document.getElementById("manaK").innerHTML;
+	if (manaK < coutManaK){
+		document.getElementById("bspecialK").disabled = true;
+	}
+	manaC = document.getElementById("manaC").innerHTML;
+	if (manaC < coutManaC){
+		document.getElementById("bspecialC").disabled = true;
+	}
+	manaM = document.getElementById("manaM").innerHTML;
+	if (manaM < coutManaM){
+		document.getElementById("bspecialM").disabled = true;
+	}
+	manaA = document.getElementById("manaA").innerHTML;
+	if (manaA < coutManaA){
+		document.getElementById("bspecialA").disabled = true;
+	}
 	document.getElementById("stats1").style.visibility = "visible";
 	document.getElementById("stats2").style.visibility = "hidden";
 	document.getElementById("stats3").style.visibility = "hidden";
@@ -26,6 +42,22 @@ bcible2.onclick = function(){
 	document.getElementById("bspecialC").disabled = false;
 	document.getElementById("bspecialM").disabled = false;
 	document.getElementById("bspecialA").disabled = false;
+	manaK = document.getElementById("manaK").innerHTML;
+	if (manaK < coutManaK){
+		document.getElementById("bspecialK").disabled = true;
+	}
+	manaC = document.getElementById("manaC").innerHTML;
+	if (manaC < coutManaC){
+		document.getElementById("bspecialC").disabled = true;
+	}
+	manaM = document.getElementById("manaM").innerHTML;
+	if (manaM < coutManaM){
+		document.getElementById("bspecialM").disabled = true;
+	}
+	manaA = document.getElementById("manaA").innerHTML;
+	if (manaA < coutManaA){
+		document.getElementById("bspecialA").disabled = true;
+	}
 	document.getElementById("stats2").style.visibility = "visible";
 	document.getElementById("stats1").style.visibility = "hidden";
 	document.getElementById("stats3").style.visibility = "hidden";
@@ -37,6 +69,22 @@ bcible3.onclick = function(){
 	document.getElementById("bspecialC").disabled = false;
 	document.getElementById("bspecialM").disabled = false;
 	document.getElementById("bspecialA").disabled = false;
+	manaK = document.getElementById("manaK").innerHTML;
+	if (manaK < coutManaK){
+		document.getElementById("bspecialK").disabled = true;
+	}
+	manaC = document.getElementById("manaC").innerHTML;
+	if (manaC < coutManaC){
+		document.getElementById("bspecialC").disabled = true;
+	}
+	manaM = document.getElementById("manaM").innerHTML;
+	if (manaM < coutManaM){
+		document.getElementById("bspecialM").disabled = true;
+	}
+	manaA = document.getElementById("manaA").innerHTML;
+	if (manaA < coutManaA){
+		document.getElementById("bspecialA").disabled = true;
+	}
 	document.getElementById("stats3").style.visibility = "visible";
 	document.getElementById("stats1").style.visibility = "hidden";
 	document.getElementById("stats2").style.visibility = "hidden";
@@ -67,7 +115,7 @@ document.getElementById("monstre3").onmouseout = function(){
 battaqueK.onclick = function(){
 	if (cibleJoueur == 1){
 		pvM1 = document.getElementById("pvMonstre1").innerHTML;
-		pvM1-= attaquePerso;
+		pvM1 -= attaquePerso;
 		document.getElementById("pvMonstre1").innerHTML = pvM1;
 		if (pvM1 <= 0){
 			document.getElementById("boutonCible1").disabled = true;
