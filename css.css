@@ -1,5 +1,5 @@
 body{
-    font-family: Arial Narrow, sans-serif;
+  font-family: Arial Narrow, sans-serif;
 }
 
 #background{
@@ -12,6 +12,10 @@ section1{
   display: inline-block;
   justify-content: center;
   padding: 5px;
+}
+
+.bold{
+  font-weight: bold;
 }
 
 .perso1{
@@ -48,27 +52,13 @@ section1{
 
 section2{
   display: inline-block;
-  justify-content: center;
-  position: absolute;
-  top: 13px;
-  left: 1675px;
+  position: relative;
   padding: 5px;
-}
-
-.parametres{
-  display: flex;
-  padding: 5px;
-  font-size: 2.5em;
+  top: -34px;
+  text-align: center;
+  font-size: 2em;
   background-color: #122676;
   border: 3mm ridge rgba(100, 100, 100, .8);
-}
-
-section3{
-  align-items: flex-start;
-  flex-direction: column;
-  margin-top: -150px;
-  display: flex;
-  justify-content: center;
 }
 
 #infobullevictoire{
@@ -84,6 +74,56 @@ section3{
   visibility: hidden;
 }
 
+.imagemonstre{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  top: 150px;
+  left: 100px;
+}
+
+.statsmonstres{
+  padding: 5px;
+  font-size: 2.5em;
+  text-align: center;
+  background-color: #122676;
+  border: 3mm ridge rgba(100, 100, 100, .8);
+  visibility: hidden;
+  width: 150px;
+  height: 135px;
+}
+
+.infobulle1{
+  display: flex;
+  position: relative;
+  top: 180px;
+  right: -467px;
+}
+
+.infobulle2{
+  display: flex;
+  position: relative;
+  top: 10px;
+  right: -953px; 
+}
+
+.infobulle3{
+  display: flex;
+  position: relative;
+  top: -155px;
+  right: -1445px; 
+}
+
+section3{
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: center;
+  margin-top: -425px;
+  display: flex;
+  justify-content: center;
+}
+
 .menu{
   display: inline-block;
   padding: 5px;
@@ -92,61 +132,41 @@ section3{
   border: 3mm ridge rgba(100, 100, 100, .8);
 }
 
-.actions{
-  display: inline-block;
-  padding: 5px;
-  font-size: 2.5em;
-  background-color: #122676;
-  border: 3mm ridge rgba(100, 100, 100, .8);
-}
-
-.imagemonstre{
+section4{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  position: relative;
-  top: 250px;
-  left: 100px;
+  text-align: center;
+  padding: 5px;
 }
 
-.statsmonstres{
+.actionsK{
+  display: inline-block;
   padding: 5px;
   font-size: 2.5em;
   background-color: #122676;
   border: 3mm ridge rgba(100, 100, 100, .8);
-  visibility: hidden;
-  width: 125px;
-  height: 100px;
 }
 
-.infobulle1{
-  display: flex;
-  position: relative;
-  top: 290px;
-  right: -475px;
-}
-
-.infobulle2{
-  display: flex;
-  position: relative;
-  top: 160px;
-  right: -965px; 
-}
-
-.infobulle3{
-  display: flex;
-  position: relative;
-  top: 30px;
-  right: -1455px; 
-}
-
-section4{
+.actionsC{
   display: inline-block;
-  position: relative;
   padding: 5px;
-  top: -34px;
-  text-align: center;
-  font-size: 2em;
+  font-size: 2.5em;
+  background-color: #122676;
+  border: 3mm ridge rgba(100, 100, 100, .8);
+}
+
+.actionsM{
+  display: inline-block;
+  padding: 5px;
+  font-size: 2.5em;
+  background-color: #122676;
+  border: 3mm ridge rgba(100, 100, 100, .8);
+}
+
+.actionsA{
+  display: inline-block;
+  padding: 5px;
+  font-size: 2.5em;
   background-color: #122676;
   border: 3mm ridge rgba(100, 100, 100, .8);
 }
